@@ -1,7 +1,8 @@
 <div>
     @livewire('components.navbar')
 
-    <h3 class="fw-bold my-3" style="color:#1985A1;">Payoprint Support Apps</h3>
+    <h6 class="fw-bold my-3" style="color:#1985A1;">Payoprint Support Apps</h6>
+    <h3 class=" text-white">Lorem Ipsum</h3>
 
     {{-- Bar --}}
     @livewire('Bar')

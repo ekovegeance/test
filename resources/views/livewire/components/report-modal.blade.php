@@ -1,7 +1,7 @@
 <div>
     @guest
         <button id="dhov" wire:click="toggleModal" class="btn rounded-pill" style="background-color: #1985A1; color:white;"
-            type="button">Buat report baru</button>
+            type="">Buat report baru</button>
         @if ($showModal)
             @include('livewire.components.login-modal-content')
         @endif

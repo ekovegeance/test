@@ -60,7 +60,7 @@
             </div>
             <div class="card-footer bg-white">
                 <div class="input-group">
-                    <input wire:model="pesan" type="text" class="form-control rounded-start-pill" placeholder="Ketik pesan anda">
+                    <input wire:model="pesan" type="text" class="form-control rounded-start-pill" placeholder="Ketik pesan anda" onpaste="event.preventDefault">
                     <button @guest wire:click="alertError" @else @if($ID) wire:click="chat" @endif @endguest class="btn rounded-end-pill" style="background-color: #1985A1; color:white">Kirim</button>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg fixed-top bg-white shadow-sm">
     <div class="container">
         <a class="navbar-brand" href="#">
-            <img src="{{ asset('img/logo.webp') }}" alt="Payoprint Support Apps" style="height: 48px; width:48px">
+            <img src="{{ asset('img/logo.png') }}" alt="" style="height: 48px; width:48px">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
             aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,7 +20,7 @@
                     {{-- <div class="btn btn-sm btn-danger" wire:click="logout">Logout</div> --}}
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle fw-bold" href="#" role="button"
+                            <a class="nav-link dropdown-toggle fw-bold" href="#" role=""
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 {{ auth()->user()->name }}
                             </a>

@@ -1,6 +1,6 @@
 <div>
-    <div class="modal" tabindex="-1" role="dialog" style="display: block;">
-        <div class="modal-dialog" role="document">
+    <div class="modal" tabindex="-1" role="" style="display: block;">
+        <div class="modal-dialog" role="">
             <div class="modal-content border-0 bg-white shadow-lg">
                 <div class="modal-header">
                     <h5 class="modal-title">Report</h5>
@@ -27,7 +27,7 @@
                         <div class="mb-3">
                             <label for="exampleFormControlInput1" class="form-label">Fitur</label>
                             <input wire:model="nama_filtur" type="text" class="form-control"
-                                id="exampleFormControlInput1">
+                                id="exampleFormControlInput1" onpaste="event.preventDefault();">
                             @error('nama_filtur')
                                 <small class="text-danger">{{ $message }}</small>
                             @enderror
@@ -55,7 +55,7 @@
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">Di Proses Oleh</label>
                                 <input wire:model="diproses_oleh" type="text" class="form-control"
-                                    id="exampleFormControlInput1">
+                                    id="exampleFormControlInput1" onpaste="event.preventDefault();">
                                 @error('diproses_oleh')
                                     <small class="text-danger">{{ $message }}</small>
                                 @enderror

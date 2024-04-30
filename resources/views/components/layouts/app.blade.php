@@ -3,10 +3,12 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Payoprint support Apps - Temukan kehebatan Aplikasi Dukungan Payoprint. Sederhanakan proses pencetakan Anda, kelola laporan, dan tingkatkan alur kerja Anda dengan aplikasi inovatif kami.">
-        @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+        {{-- @vite(['resources/sass/app.scss', 'resources/js/app.js']) --}}
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" hreflang="e" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
     @livewireStyles
     <style>
         div.scroll {
@@ -24,8 +26,8 @@
     }
     </style>
 
-    <title>{{ $title ?? 'Payoprint Support Apps' }}</title>
-    <link rel="icon" type="image/x-icon" href="{{ asset('img/favicon.webp') }}">
+    <title>{{ $title ?? '' }}</title>
+    <link rel="icon" type="image/x-icon" href="{{ asset('img/favicon.png') }}" hreflang="e">
 </head>
 
 <body>
@@ -51,6 +53,8 @@
             alertShow.show()
         })
     </script>
+
+    
 </body>
 
 </html>
