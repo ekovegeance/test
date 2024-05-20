@@ -16,9 +16,9 @@
                                         style="background-color: #1985A1; color:white;" type="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">Ubah Status</button>
                                     <ul class="dropdown-menu border-0 bg-white shadow-sm dropdown-menu-end">
-                                        <li><a href="#" class="dropdown-item text-danger">Pending</a></li>
-                                        <li><a href="#" class="dropdown-item text-warning">Proses</a></li>
-                                        <li><a href="#" class="dropdown-item text-success">Selesai</a></li>
+                                        <li><a href="#" aria-label="Pending" class="dropdown-item text-danger">Pending</a></li>
+                                        <li><a href="#" aria-label="Proses" class="dropdown-item text-warning">Proses</a></li>
+                                        <li><a href="#" aria-label="Selesai" class="dropdown-item text-success">Selesai</a></li>
                                     </ul>
                                 </div>
                             @endif

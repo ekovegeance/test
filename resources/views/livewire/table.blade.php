@@ -25,23 +25,23 @@
                         <thead style="vertical-align: middle;" class="table-light text-center">
                             <tr>
                                 @guest
-                                    <th>Tanggal</th>
-                                    <th>Pelapor</th>
-                                    <th>Sisi Aplikasi</th>
-                                    <th>Fitur</th>
-                                    <th>Keterangan</th>
-                                    <th>Status</th>
+                                    <th scope="col">Tanggal</th>
+                                    <th scope="col">Pelapor</th>
+                                    <th scope="col">Sisi Aplikasi</th>
+                                    <th scope="col">Fitur</th>
+                                    <th scope="col">Keterangan</th>
+                                    <th scope="col">Status</th>
                                     <th>Diproses Oleh</th>
                                 @else
-                                    <th>Tanggal</th>
-                                    <th>Pelapor</th>
-                                    <th>Sisi Aplikasi</th>
-                                    <th>Fitur</th>
-                                    <th>Keterangan</th>
-                                    <th>Status</th>
-                                    <th>Diproses Oleh</th>
-                                    <th>Aksi</th> <!-- Tambahkan kolom Action -->
-                                    <th>Chat</th>
+                                    <th scope="col">Tanggal</th>
+                                    <th scope="col">Pelapor</th>
+                                    <th scope="col">Sisi Aplikasi</th>
+                                    <th scope="col">Fitur</th>
+                                    <th scope="col">Keterangan</th>
+                                    <th scope="col">Status</th>
+                                    <th scope="col">Diproses Oleh</th>
+                                    <th scope="col">Aksi</th> <!-- Tambahkan kolom Action -->
+                                    <th scope="col">Chat</th>
                                 @endguest
                             </tr>
                         </thead>
